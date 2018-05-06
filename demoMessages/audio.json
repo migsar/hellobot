@@ -1,0 +1,17 @@
+{
+  "update_id": Number,
+  "message": {
+    "message_id": Number,
+    "from": User,
+    "chat": Chat,
+    "date": Number,
+    "audio": {
+      "duration": 180,
+      "mime_type": "audio/mp3",
+      "title": "Song name",
+      "performer": "Artist",
+      "file_id": "telegram_file_id",
+      "file_size": 2850444
+    }
+  }
+}

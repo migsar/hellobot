@@ -1,0 +1,13 @@
+{
+  "update_id": Number,
+  "message": {
+    "message_id": Number,
+    "from": User,
+    "chat": Chat,
+    "date": Number,
+    "location": {
+      "latitude": 25.760452,
+      "longitude": -100.279471
+    }
+  }
+}

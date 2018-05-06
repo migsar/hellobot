@@ -1,0 +1,23 @@
+{
+  "update_id": Number,
+  "message": {
+    "message_id": Number,
+    "from": User,
+    "chat": Chat,
+    "date": Number,
+    "sticker": {
+      "width": 512,
+      "height": 512,
+      "emoji": "💪",
+      "set_name": "set name",
+      "thumb": {
+        "file_id": "telegram_file_id",
+        "file_size": 7304,
+        "width": 128,
+        "height": 128
+      },
+      "file_id": "telegram_file_id",
+      "file_size": 45652
+    }
+  }
+}

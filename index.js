@@ -13,11 +13,9 @@ exports.helloBot = (req, res) => {
       text: options.greetings
     })
     .then(function (response) {
-      console.log(response);
       res.send({ status: 'OK'});
     })
     .catch(function (error) {
-      console.log(error);
       res.sendStatus(500);
     });
   }
@@ -26,6 +24,7 @@ exports.helloBot = (req, res) => {
 
   if ( callToken !== localconf.webhookToken ) {
     const message = req.body.message;
+    console.log(JSON.stringify(req.body));
     const options = {
       greetings: `Hello ${message.from.first_name} ${message.from.last_name}!`,
       chatId: message.chat.id

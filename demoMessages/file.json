@@ -1,0 +1,22 @@
+{
+  "update_id": Number,
+  "message": {
+    "message_id": Number,
+    "from": User,
+    "chat": Chat,
+    "date": Number,
+    "document": {
+      "file_name": "file.jpg",
+      "mime_type": "image/jpeg",
+      "thumb": {
+        "file_id": "telegram_file_id",
+        "file_size": 3245,
+        "width": 90,
+        "height": 80
+      },
+      "file_id": "telegram_file_id",
+      "file_size": 93373
+    },
+    "caption": "Caption"
+  }
+}

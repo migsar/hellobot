@@ -1,0 +1,13 @@
+{
+  "update_id": Number,
+  "message": {
+    "message_id": Number,
+    "from": User,
+    "chat": Chat,
+    "date": Number,
+    "contact": {
+      "phone_number": "5555555555",
+      "first_name": "Contact Name"
+    }
+  }
+}

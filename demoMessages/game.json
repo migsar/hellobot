@@ -1,0 +1,45 @@
+{
+  "update_id": Number,
+  "message": {
+    "message_id": Number,
+    "from": User,
+    "chat": Chat,
+    "date": Number,
+    "game": {
+      "title": "LumberJack",
+      "description": "Chop wood as fast as you can, but watch out for those branches!",
+      "photo": [
+        {
+          "file_id": "telegram_file_id",
+          "file_size": 1123,
+          "width": 90,
+          "height": 51
+        },
+        {
+          "file_id": "telegram_file_id",
+          "file_size": 8123,
+          "width": 320,
+          "height": 180
+        },
+        {
+          "file_id": "telegram_file_id",
+          "file_size": 16944,
+          "width": 640,
+          "height": 360
+        }
+      ],
+      "animation": {
+        "file_name": "video.mp4",
+        "mime_type": "video/mp4",
+        "thumb": {
+          "file_id": "telegram_file_id",
+          "file_size": 2059,
+          "width": 90,
+          "height": 50
+        },
+        "file_id": "telegram_file_id",
+        "file_size": 264612
+      }
+    }
+  }
+}

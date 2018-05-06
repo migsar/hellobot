@@ -1,0 +1,17 @@
+{
+  "update_id": Number,
+  "message": {
+    "message_id": Number,
+    "from": User,
+    "chat": Chat,
+    "date": Number,
+    "text": "/test",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 5,
+        "type": "bot_command"
+      }
+    ]
+  }
+}

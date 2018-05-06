@@ -1,0 +1,15 @@
+{
+  "update_id": Number,
+  "message": {
+    "message_id": Number,
+    "from": User,
+    "chat": Chat,
+    "date": Number,
+    "contact": {
+      "phone_number": "525555555555",
+      "first_name": "Name",
+      "last_name": "Lastname",
+      "user_id": telegram_id
+    }
+  }
+}

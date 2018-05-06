@@ -1,0 +1,21 @@
+{
+  "update_id": Number,
+  "message": {
+    "message_id": Number,
+    "from": User,
+    "chat": Chat,
+    "date": Number,
+    "video_note": {
+      "duration": 5,
+      "length": 240,
+      "thumb": {
+        "file_id": "telegram_file_id",
+        "file_size": 1324,
+        "width": 90,
+        "height": 90
+      },
+      "file_id": "telegram_file_id",
+      "file_size": 239937
+    }
+  }
+}
